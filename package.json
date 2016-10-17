@@ -1,0 +1,36 @@
+{
+  "name": "monitos.web",
+  "version": "0.1.0",
+  "description": "Monitos web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dunkelheit/monitos.web.git"
+  },
+  "keywords": [
+    "monitos",
+    "socket",
+    "fsm",
+    "finite",
+    "state",
+    "machines",
+    "automaton",
+    "automata",
+    "d&d",
+    "dungeons",
+    "dragons",
+    "saving",
+    "throw",
+    "web",
+    "application"
+  ],
+  "author": "Arturo Martinez <dunkelheit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dunkelheit/monitos.web/issues"
+  },
+  "homepage": "https://github.com/Dunkelheit/monitos.web#readme"
+}
