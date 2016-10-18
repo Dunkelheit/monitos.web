@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
-    template: '<h1>Hello Mr. Huxley</h1>'
+    moduleId: module.id,
+    selector: 'monitos-app',
+    templateUrl: 'app.component.html'
 })
 export class AppComponent { }
