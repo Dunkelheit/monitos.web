@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { SocketService } from './socket.service';
 
 @Component({
     moduleId: module.id,
