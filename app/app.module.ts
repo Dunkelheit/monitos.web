@@ -6,6 +6,8 @@ import { NgbModule }        from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent }         from './app.component';
 import { DashboardComponent }   from './dashboard.component';
 import { SocketComponent }      from './socket.component';
+import { GraphComponent }       from './graph.component';
+import { GraphDirective }       from './graph.directive';
 
 @NgModule({
     imports: [
@@ -16,7 +18,9 @@ import { SocketComponent }      from './socket.component';
     declarations: [
         AppComponent,
         DashboardComponent,
-        SocketComponent
+        SocketComponent,
+        GraphComponent,
+        GraphDirective
     ],
     bootstrap: [ AppComponent ]
 })
