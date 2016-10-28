@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef, ViewChild, AfterViewInit, Renderer } from '@angular/core';
+import { SocketService } from "./socket.service";
 
 declare var cytoscape:any;
 
@@ -6,12 +7,15 @@ declare var cytoscape:any;
     moduleId: module.id,
     selector: 'monitos-graph',
     templateUrl: 'graph.component.html',
-    styleUrls: []
+    styleUrls: [],
+    providers: [SocketService]
 })
 export class GraphComponent implements OnInit, AfterViewInit {
     @ViewChild('graph') graph;
 
-    constructor() { }
+    constructor(private socketService:SocketService) {
+        // Nothing
+    }
 
     ngAfterViewInit() {
         console.log(this.graph.nativeElement);
