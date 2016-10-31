@@ -35,6 +35,7 @@
   },
   "homepage": "https://github.com/Dunkelheit/monitos.web#readme",
   "dependencies": {
+    "monitos.io": "^0.2.1",
     "vue": "^2.0.1"
   },
   "devDependencies": {
