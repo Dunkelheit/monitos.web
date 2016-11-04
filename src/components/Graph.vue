@@ -9,6 +9,14 @@
         name: 'graph',
         methods: {
         },
+        sockets: {
+            connect () {
+                console.log('HELLO FROM HERE');
+            },
+            state(data) {
+                console.log('STATE', data);
+            }
+        },
         mounted () {
             cytoscape({
                 container: this.$refs.graph,

@@ -16,7 +16,7 @@ api.closeSocket = function (server, options) {
 
 api.start = function () {
     function delay(done) {
-        setTimeout(done, 400);
+        setTimeout(done, 1000);
     }
     monito = new Monito({
         register: (monito, next) => {
