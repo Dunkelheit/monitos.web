@@ -1,0 +1,15 @@
+.git
+node_modules
+build
+config
+dist
+src
+static
+.babelrc
+.gitignore
+.jshintrc
+.nvmrc
+index.html
+LICENSE
+*.log
+*.md

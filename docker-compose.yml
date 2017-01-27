@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  backend:
+      build: .
+      container_name: monitos-web-backend
+      ports:
+          - "9183:9183"
+  frontend:
+      image: nginx:stable-alpine
+      container_name: monitos-web-frontend
+      depends_on:
+          - backend
+      volumes:
+          - ./dist:/usr/share/nginx/html
+      ports:
+          - 9090:80
